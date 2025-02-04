@@ -2,9 +2,9 @@
 
 namespace BinarCode\LaravelSmartChat\Tests;
 
+use BinarCode\LaravelSmartChat\LaravelSmartChatServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BinarCode\LaravelSmartChat\LaravelSmartChatServiceProvider;
 
 class TestCase extends Orchestra
 {
