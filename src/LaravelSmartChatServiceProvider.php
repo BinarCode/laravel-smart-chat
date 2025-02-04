@@ -2,9 +2,9 @@
 
 namespace BinarCode\LaravelSmartChat;
 
+use BinarCode\LaravelSmartChat\Commands\LaravelSmartChatCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use BinarCode\LaravelSmartChat\Commands\LaravelSmartChatCommand;
 
 class LaravelSmartChatServiceProvider extends PackageServiceProvider
 {
