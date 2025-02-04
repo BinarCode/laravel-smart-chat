@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace BinarCode\LaravelSmartChat\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSmartChatCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-smart-chat';
 
     public $description = 'My command';
 

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "binarcode/laravel-smart-chat",
+    "description": "A powerful package that allows you to aggregate knowledge from various sources and chat using LLM.",
     "keywords": [
-        ":vendor_name",
+        "BinarCode",
         "laravel",
-        ":package_slug"
+        "laravel-smart-chat"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/binarcode/laravel-smart-chat",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Eduard Lupacescu",
+            "email": "eduard.lupacescu@binarcode.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "BinarCode\\LaravelSmartChat\\": "src/",
+            "BinarCode\\LaravelSmartChat\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "BinarCode\\LaravelSmartChat\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "BinarCode\\LaravelSmartChat\\LaravelSmartChatServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSmartChat": "BinarCode\\LaravelSmartChat\\Facades\\LaravelSmartChat"
             }
         }
     },
